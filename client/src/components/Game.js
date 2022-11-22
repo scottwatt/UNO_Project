@@ -4,16 +4,6 @@ import shuffleArray from '../utils/shuffleArray'
 import io from 'socket.io-client'
 import queryString from 'query-string'
 import Spinner from './Spinner'
-import useSound from 'use-sound'
-
-import bgMusic from '../assets/sounds/game-bg-music.mp3'
-import unoSound from '../assets/sounds/uno-sound.mp3'
-import shufflingSound from '../assets/sounds/shuffling-cards-1.mp3'
-import skipCardSound from '../assets/sounds/skip-sound.mp3'
-import draw2CardSound from '../assets/sounds/draw2-sound.mp3'
-import wildCardSound from '../assets/sounds/wild-sound.mp3'
-import draw4CardSound from '../assets/sounds/draw4-sound.mp3'
-import gameOverSound from '../assets/sounds/game-over-sound.mp3'
 
 //NUMBER CODES FOR ACTION CARDS
 //SKIP - 404
